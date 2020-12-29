@@ -21,7 +21,7 @@ const PostList = () => {
                     <button type="button" className="tag-btn" onClick={() => handleTagChange('technology')}>Technology</button>
                     <button type="button" className="tag-btn" onClick={() => handleTagChange('politics')}>Politics</button>
                     <button type="button" className="tag-btn" onClick={() => handleTagChange('sports')}>Sports</button>
-                    <button type="button" className="clr-btn" onClick={() => handleTagChange('')}>Clear</button>
+                    <button type="button" className="clr-btn" onClick={() => handleTagChange('')}>X</button>
                 </div>
                 {!posts.length ?
                     <div className="no-posts">No Posts available</div> :
